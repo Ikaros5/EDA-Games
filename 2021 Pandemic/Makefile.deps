@@ -1,0 +1,38 @@
+AIApolo.o: AIApolo.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+AIAres.o: AIAres.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+AIArtemis.o: AIArtemis.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh Defs.hh State.hh Action.hh Random.hh Registry.hh
+AIDemo.o: AIDemo.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+AIHades.o: AIHades.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+AIHermes.o: AIHermes.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+AIIsaac.o: AIIsaac.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+AINull.o: AINull.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+AIPoseidon.o: AIPoseidon.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh Defs.hh State.hh Action.hh Random.hh Registry.hh
+AIZeus.o: AIZeus.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+Action.o: Action.cc Action.hh Structs.hh Utils.hh Defs.hh
+BackTrace.o: BackTrace.cc BackTrace.hh
+Board.o: Board.cc Board.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh
+Game.o: Game.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh Board.hh
+Info.o: Info.cc Info.hh Settings.hh Structs.hh Utils.hh Defs.hh State.hh
+Main.o: Main.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh Board.hh
+Player.o: Player.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+ Defs.hh State.hh Action.hh Random.hh Registry.hh
+PosDir.o: PosDir.cc PosDir.hh Utils.hh Defs.hh
+Random.o: Random.cc Random.hh Utils.hh Defs.hh
+Registry.o: Registry.cc Registry.hh Utils.hh Defs.hh
+Settings.o: Settings.cc Settings.hh Structs.hh Utils.hh Defs.hh
+State.o: State.cc State.hh Structs.hh Utils.hh Defs.hh
+Structs.o: Structs.cc Structs.hh Utils.hh Defs.hh
+Utils.o: Utils.cc Utils.hh Defs.hh
