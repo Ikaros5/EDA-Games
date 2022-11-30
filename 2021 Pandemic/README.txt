@@ -1,4 +1,6 @@
+This was my first year game, so there are many versions and strategys I tested. Best ones are Hades and Zeus (I ended up playing with Zeus).
 
+Game information:
 title:      BattleRoyale
 
 authors:    Albert Vaca
